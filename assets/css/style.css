@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    /* border: 5px xolid white; */
+}
+
+/* Set Background Color of webpage */
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-flex;
+    font-size: 34px;
+    color:black;
+    background-color: teal;
+    width: 40vh;
+    justify-content: space-evenly;
+    padding: 2px 20px;
+}
+
+nav {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+nav a {
+    color: teal;
+    padding-top: 19px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5px;
+}
+
+/* Set hero image height and width. 
+   Set display as flex and justify-
+   content and align-items both to 
+   flex-end to get subtitle in the
+   bottom right corner.*/
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 15px 35px;
+  }
+
+.sub_title {
+    display: flex;
+    justify-content: space-evenly;
+    /* border-style: solid; */
+    background-color: teal;
+}
+
+.sub_title h2 {
+    background-color: teal;
+    padding: 5px;
+  }
+  
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.wrapper p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
