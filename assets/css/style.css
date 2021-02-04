@@ -84,7 +84,7 @@ nav a {
   
 /* Create a wrapper for main content  */
 .wrapper {
-    background-color: rgb(2, 136, 160);
+    background-color: rgb(16, 160, 185);
     width: 96%;
     margin: 0 auto;
 }
@@ -92,27 +92,26 @@ nav a {
 /* Create id for worl content and set display to flex */
 .wrapper #about_me {
     display: flex;
-    border: 4px solid black;
-    border-bottom: 2px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 /* Create id for about me content and set display to flex */
 .wrapper #work {
     display: flex;
-    border: 4px solid black;
-    border-bottom: 2px;
+    /* border-bottom: 3px solid black; */
 }
 
 .wrapper #contact {
     display: flex;
-    border: 4px solid black;
-
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 /* Styling for wrapper class h2 tag */
 .wrapper h2 {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: flex-end;
     min-width: 30vh;
     min-height: 20vh;
@@ -145,8 +144,6 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-left: 4px solid lightsteelblue;
-    /* justify-content: flex-end; */
-    /* background-color: green; */
 }
 
 .wrapper img {
@@ -154,7 +151,7 @@ nav a {
     margin: 10px;
     max-width: 70vh;
     max-height: 70vh;
-    border: 5px solid lightsteelblue;
+    /* border: 5px solid lightsteelblue; */
 
 }
 
