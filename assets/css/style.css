@@ -7,7 +7,7 @@
 
 /* Set Background Color of webpage */
 body {
-    background-color: white;
+    background-color: rgb(187, 216, 228);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ nav a {
 .hero {
     height: 200px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
     background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
     background-position: center;
@@ -84,14 +84,9 @@ nav a {
   
 /* Create a wrapper for main content  */
 .wrapper {
-    line-height: 24px;
-    width: 1100px;
+    background-color: rgb(2, 136, 160);
+    width: 96%;
     margin: 0 auto;
-}
-
-/* Create id for about me content and set display to flex */
-.wrapper #work {
-    display: flex;
 }
 
 /* Create id for worl content and set display to flex */
@@ -99,27 +94,42 @@ nav a {
     display: flex;
 }
 
+/* Create id for about me content and set display to flex */
+.wrapper #work {
+    display: flex;
+}
+
 .wrapper #contact {
-    display: inline-flex;
+    display: flex;
 }
 
 /* Styling for wrapper class h2 tag */
 .wrapper h2 {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
-    min-width: 35vh;
+    min-width: 30vh;
+    min-height: 20vh;
     margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 40px;
     padding: 10px;
     line-height: 40px;
     color: lightsteelblue;
 }
 
+.wrapper h2 .me {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* Styling for wrapper class p tag */
 .wrapper p {
     padding: 10px;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 24px; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    line-height: 24px;
     font-family: 'Times New Roman', Times, serif;
     border-left: solid;
     border-left-width: 4px;
@@ -128,13 +138,24 @@ nav a {
 
 /* styling for wrapper class unordered list */
 .wrapper ul {
+    width: 100%;
     display: inline-flex;
     list-style-type: none;
+   justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
     font-size: 24px;
     border-left: solid;
     border-left-width: 4px;
     border-color: lightsteelblue;
-    min-height: 15vh;
+}
+
+/* give wrapper class unordered list items some padding */
+.wrapper ul li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: teal;
 }
 
 .wrapper a {
@@ -145,10 +166,6 @@ nav a {
     border-color: lightsteelblue;
 }
 
-/* give wrapper class unordered list items some padding */
-.wrapper ul li {
-    padding: 21px;
-}
 
 
 
