@@ -6,7 +6,7 @@
 
 /* Set Background Color of webpage */
 body {
-    position: absolute;
+    position: relative;
     background-color: rgb(187, 216, 228);
 }
 
@@ -14,19 +14,19 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: #ffffff;
 }
 
 header h1 {
-    /* display: inline-flex; */
-    /* justify-content: space-evenly; */
-    font-size: 34px;
-    color:black;
-    padding: 2px 20px;
-    background-color: rgb(92, 175, 175);
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 38px;
+    margin: 10px;
+    color: rgb(121, 16, 54);
+    background-color: rgb(131, 223, 240);
 }
 
 nav {
@@ -36,11 +36,8 @@ nav {
 /* Styling for nav class anchor tags */
 nav a {
     color: rgb(16, 160, 185);
-    padding-top: 19px;
+    padding-top: 25px;
     margin-right: 20px;
-    text-decoration: none;
-    border-bottom-style: solid;
-    border-bottom-width: 2.5px;
 }
 
 /* Set hero image height and width. 
@@ -74,12 +71,14 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
-    background-color: rgb(92, 175, 175);
+    background-color: rgb(131, 223, 240);
 }
 
 /* Styling for Subtitle h2 tag */
 .sub_title h2 {
     padding: 5px;
+    font-size: 32px;
+    color: rgb(121, 16, 54)
   }
   
 /* Create a wrapper for main content  */
