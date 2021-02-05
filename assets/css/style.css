@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    min-width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -52,12 +53,12 @@ nav a {
    bottom right corner.*/
 .hero {
     height: 200px;
-    width: 100%;
+    min-width: 100%;
     margin-bottom: 26px;
     background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
     background-position: center;
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -108,7 +109,7 @@ nav a {
 .wrapper h2 {
     display: flex;
     justify-content: flex-end;
-    min-width: 20%;
+    min-width: 30%;
     min-height: 20%;
     margin-bottom: 20px;
     margin-top: 20px;
