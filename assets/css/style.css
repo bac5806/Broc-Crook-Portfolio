@@ -14,23 +14,24 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     padding: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: #ffffff;
 }
 
 header h1 {
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    min-width: 20%;
     font-size: 38px;
-    margin: 10px;
+    padding-top: 15px;
     color: rgb(121, 16, 54);
     background-color: rgb(131, 223, 240);
 }
 
 nav {
-    display: inline-flex;
+    font-size: 18px;
 }
 
 /* Styling for nav class anchor tags */
@@ -67,7 +68,6 @@ nav a {
 
   /* Subtitle class */
 .sub_title {
-    max-width: 30%;
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
