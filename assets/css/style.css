@@ -58,12 +58,20 @@ nav a {
     background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
     background-position: center;
-    /* position: relative; */
+    position: relative;
+  }
+
+  /*******************************************************************************************
+                                    This needs to be Fixed!
+   *******************************************************************************************/
+.hero .sub_title_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 15px 35px;
-  }
+    /* background-color: blueviolet; */
+    padding: 15px 35px;  
+}
+
 
   /* Subtitle class */
 .sub_title {
