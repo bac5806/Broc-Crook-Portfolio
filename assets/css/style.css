@@ -70,6 +70,7 @@ nav a {
 
   /* Subtitle class */
 .sub_title {
+    max-width: 30%;
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
