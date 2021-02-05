@@ -24,7 +24,7 @@ header {
 header h1 {
     display: flex;
     justify-content: center;
-    min-width: 20%;
+    margin-left: 3%;
     font-size: 46px;
     padding-top: 15px;
     color: white;
@@ -33,6 +33,7 @@ header h1 {
 
 nav {
     font-size: 18px;
+    margin-right: 3%;
 }
 
 /* Styling for nav class anchor tags */
@@ -71,7 +72,7 @@ nav a {
 .sub_title {
     display: flex;
     justify-content: space-evenly;
-    margin-right: 11%;
+    margin-right: 10%;
 }
 
 /* Styling for Subtitle h2 tag */
@@ -83,14 +84,14 @@ nav a {
   
 /* Create a wrapper for main content  */
 .wrapper {
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 }
 
 /* Create id for worl content and set display to flex */
 .wrapper #about_me {
     display: flex;
-    border-top: 3px solid black;
+    /* border-top: 3px solid black; */
     border-bottom: 3px solid black;
 }
 
@@ -103,7 +104,6 @@ nav a {
 .wrapper #contact {
     display: flex;
     border-top: 3px solid black;
-    border-bottom: 3px solid black;
 }
 
 /* Styling for wrapper class h2 tag */
@@ -175,10 +175,6 @@ nav a {
     
 }
 
-footer {
-    background-color: black;
-    margin: 10px;
-}
 
 span[data-descr] {
     position: relative;
@@ -200,6 +196,13 @@ span[data-descr] {
     z-index: 1;
   }
 
+  footer {
+    width: 100%;
+    min-height: 50px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
 
 
 
