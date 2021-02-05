@@ -30,7 +30,7 @@ header h1 {
     font-size: 34px;
     color:black;
     background-color: teal;
-    width: 40vh;
+    min-width: 25%;
     padding: 2px 20px;
 }
 
@@ -85,8 +85,9 @@ nav a {
 /* Create a wrapper for main content  */
 .wrapper {
     background-color: rgb(16, 160, 185);
-    /* width: 96%; */
+    max-width: 96%;
     margin: 0 auto;
+    border: 5px solid black;
 }
 
 /* Create id for worl content and set display to flex */
@@ -113,8 +114,8 @@ nav a {
     display: flex;
     /* align-items: center; */
     justify-content: flex-end;
-    min-width: 30vh;
-    min-height: 20vh;
+    min-width: 20%;
+    min-height: 20%;
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 40px;
@@ -149,8 +150,8 @@ nav a {
 .wrapper img {
     padding: 5px;
     margin: 10px;
-    max-width: 70vh;
-    max-height: 70vh;
+    max-width: 50%;
+    height: auto; 
     /* border: 5px solid lightsteelblue; */
 
 }
