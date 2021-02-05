@@ -6,7 +6,7 @@
 
 /* Set Background Color of webpage */
 body {
-    position: relative;
+    position: absolute;
     background-color: rgb(187, 216, 228);
 }
 
