@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0; 
     margin: 0;
-    /* border: 5px xolid white; */
 }
 
 /* Set Background Color of webpage */
@@ -11,7 +10,6 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: flex-start;
 }
 
@@ -30,13 +28,11 @@ header h1 {
     font-size: 34px;
     color:black;
     background-color: teal;
-    min-width: 25%;
     padding: 2px 20px;
 }
 
 nav {
     display: inline-flex;
-    margin-right: 20px;
 }
 
 /* Styling for nav class anchor tags */
@@ -85,7 +81,6 @@ nav a {
 /* Create a wrapper for main content  */
 .wrapper {
     background-color: rgb(16, 160, 185);
-    max-width: 96%;
     margin: 0 auto;
     border: 5px solid black;
 }
@@ -112,7 +107,6 @@ nav a {
 /* Styling for wrapper class h2 tag */
 .wrapper h2 {
     display: flex;
-    /* align-items: center; */
     justify-content: flex-end;
     min-width: 20%;
     min-height: 20%;
