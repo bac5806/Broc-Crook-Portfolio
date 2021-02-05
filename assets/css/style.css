@@ -6,6 +6,7 @@
 
 /* Set Background Color of webpage */
 body {
+    position: absolute;
     background-color: rgb(187, 216, 228);
     /* display: flex;
     flex-direction: column;
@@ -13,7 +14,6 @@ body {
 }
 
 header {
-    position: absolute;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ nav a {
     background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
     background-position: center;
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
