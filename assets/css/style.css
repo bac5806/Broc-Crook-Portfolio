@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    position: absolute;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -58,7 +59,7 @@ nav a {
     background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
