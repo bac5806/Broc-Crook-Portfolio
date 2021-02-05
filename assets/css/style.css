@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    min-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -28,7 +28,7 @@ header h1 {
     justify-content: space-evenly;
     font-size: 34px;
     color:black;
-    background-color: teal;
+    background-color: rgb(16, 160, 185);
     padding: 2px 20px;
 }
 
@@ -38,7 +38,7 @@ nav {
 
 /* Styling for nav class anchor tags */
 nav a {
-    color: teal;
+    color: rgb(16, 160, 185);
     padding-top: 19px;
     margin-right: 20px;
     text-decoration: none;
@@ -53,7 +53,7 @@ nav a {
    bottom right corner.*/
 .hero {
     height: 200px;
-    min-width: 100%;
+    width: 100%;
     margin-bottom: 26px;
     background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
@@ -70,12 +70,12 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
-    background-color: teal;
+    background-color: rgb(16, 160, 185);
 }
 
 /* Styling for Subtitle h2 tag */
 .sub_title h2 {
-    background-color: teal;
+    background-color: rgb(16, 160, 185);
     padding: 5px;
   }
   
