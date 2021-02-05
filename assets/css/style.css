@@ -85,7 +85,7 @@ nav a {
 /* Create a wrapper for main content  */
 .wrapper {
     background-color: rgb(16, 160, 185);
-    width: 96%;
+    /* width: 96%; */
     margin: 0 auto;
 }
 
