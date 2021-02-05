@@ -7,10 +7,9 @@
 /* Set Background Color of webpage */
 body {
     background-color: rgb(187, 216, 228);
-    margin: 0;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start; */
 }
 
 header {
@@ -55,23 +54,15 @@ nav a {
     height: 200px;
     width: 100%;
     margin-bottom: 26px;
+    padding: 15px 35px;  
     background-image: url("../images/pexels-suzy-hazelwood-1629236.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
-  }
-
-  /*******************************************************************************************
-                                    This needs to be Fixed!
-   *******************************************************************************************/
-.hero .sub_title_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /* background-color: blueviolet; */
-    padding: 15px 35px;  
-}
-
+  }
 
   /* Subtitle class */
 .sub_title {
