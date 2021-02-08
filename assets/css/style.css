@@ -85,21 +85,19 @@ nav a {
   
 /* Create a wrapper for main content  */
 .wrapper {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
 }
 
 /* Create id for worl content and set display to flex */
 .wrapper #about_me {
     display: flex;
-    /* border-top: 3px solid black; */
     border-bottom: 3px solid black;
 }
 
 /* Create id for about me content and set display to flex */
 .wrapper #work {
     display: flex;
-    /* border-bottom: 3px solid black; */
 }
 
 .wrapper #contact {
@@ -128,11 +126,13 @@ nav a {
 
 /* Styling for wrapper class p tag */
 .wrapper p {
+    /* max-width: 65%; */
     padding: 20px;
     font-size: 24px; 
     line-height: 24px;
     font-family: 'Times New Roman', Times, serif;
     border-left: 4px solid rgb(91, 150, 228);
+
 }
 
 .wrapper .image_container {
@@ -151,7 +151,6 @@ nav a {
 }
 
 .wrapper .contact_container {
-    width: auto;
     display: flex;
     justify-content: center;
     border-left: 4px solid rgb(91, 150, 228);
