@@ -217,14 +217,14 @@ footer h2 {
 }
 
 @media only screen and (max-device-width: 480px) {
-    header {
-        width: 400px;
+    header,
+    .wrapper {
+        width: auto;
     }
 
-@media only screen and (max-device-width: 480px) {
-    div#wrapper {
-        width: 400px;
-    }
-
+    @media only screen and (max-device-width: 480px) {
+        .contact_container {
+            width: auto;
+        }
 
 
