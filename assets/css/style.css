@@ -151,7 +151,7 @@ nav a {
 }
 
 .wrapper .contact_container {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     border-left: 4px solid rgb(91, 150, 228);
@@ -218,13 +218,10 @@ footer h2 {
 
 @media only screen and (max-device-width: 480px) {
     header,
+    .hero,
     .wrapper {
         width: auto;
     }
 
-    @media only screen and (max-device-width: 480px) {
-        .contact_container {
-            width: auto;
-        }
 
 
