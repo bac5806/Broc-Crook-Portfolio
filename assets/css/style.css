@@ -109,8 +109,7 @@ nav a {
 .wrapper h2 {
     display: flex;
     justify-content: flex-end;
-    min-width: 30%;
-    min-height: 20%;
+    min-width: 13%; 
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 40px;
