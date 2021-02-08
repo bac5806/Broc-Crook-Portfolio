@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     padding: 0; 
@@ -84,7 +85,6 @@ nav a {
   
 /* Create a wrapper for main content  */
 .wrapper {
-    overflow: auto;
     width: 80%;
     margin: 0 auto;
 }
@@ -150,14 +150,19 @@ nav a {
     height: auto; 
 }
 
-/* styling for wrapper class unordered list */
-.wrapper ul {
+.wrapper .contact_container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    border-left: 4px solid rgb(91, 150, 228);
+}
+
+/* styling for wrapper class unordered list */
+.wrapper .contact_container ul {
     display: inline-flex;
     list-style-type: none;
     justify-content: center;  
     font-size: 24px;
-    border-left: 4px solid rgb(91, 150, 228);
 }
 
 /* give wrapper class unordered list items some padding */
@@ -173,7 +178,6 @@ nav a {
     /* border-bottom: 4px solid rgb(91, 150, 228); */
     
 }
-
 
 span[data-descr] {
     position: relative;
