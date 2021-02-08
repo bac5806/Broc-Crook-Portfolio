@@ -84,6 +84,7 @@ nav a {
   
 /* Create a wrapper for main content  */
 .wrapper {
+    overflow: auto;
     width: 80%;
     margin: 0 auto;
 }
