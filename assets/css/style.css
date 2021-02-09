@@ -7,14 +7,15 @@
 
 /* Set Background Color of webpage */
 body {
-    position: absolute;
+    /* position: absolute; */
     width:auto;
     background-color: rgb(214, 230, 238); 
+    overflow: auto;
 }
 
 header {
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -51,8 +52,8 @@ nav a {
    flex-end to get subtitle in the
    bottom right corner.*/
 .hero {
-    height: 200px;
-    width: 100%;
+    height: auto;
+    width: auto;
     margin-bottom: 25px;
     padding: 15px 35px;  
     background-image: url("../images/grafiti.jpg");
@@ -205,7 +206,7 @@ span[data-descr] {
   }
 
   footer {
-    width: 100%;
+    width: auto;
     min-height: 100px;
     margin-top: 25px;
     padding: 5px;
