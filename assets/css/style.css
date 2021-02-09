@@ -77,7 +77,6 @@ nav a {
     display: flex;
     flex-shrink: 2; 
     justify-content: space-evenly;
-    position: relative;
     margin-right: 9%;
 }
 
@@ -162,7 +161,7 @@ nav a {
 }
 
 /* styling for wrapper class unordered list */
-.wrapper .contact_container ul {
+.wrapper .contact_container ul {    
     display: flex;
     list-style-type: none;
     font-size: 24px;
@@ -225,8 +224,21 @@ footer h2 {
         justify-content: center;
     } 
 
+    header nav {
+        margin-right: -5%;
+    }
+
     .hero img {
-        max-height: 120px;
+        max-height: 100px;
+    }
+
+    .sub_title {
+        justify-content: space-between;
+    }
+
+    .sub_title h2 {
+        margin-right: -20px;
+        font-size: 20px;
     }
 
     .wrapper #about_me {
@@ -257,11 +269,19 @@ footer h2 {
     }
 
     .wrapper .contact_container {
-        width: auto;
+        flex-wrap: wrap;
         border: none;
     }
 
     .wrapper img {
         max-width: 60%;
+    }
+
+    .wrapper .contact_container ul {
+        font-size: 24px;
+    }
+
+    .wrapper ul li {
+        padding: 10px;
     }
 }
