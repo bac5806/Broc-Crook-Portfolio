@@ -13,25 +13,27 @@ body {
 }
 
 header {
-    width: 100%;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
     padding: 5px;
     background-color: rgb(16, 9, 46);
     color: #ffffff;
 }
 
 header h1 {
-    display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     margin-left: 3%;
     font-size: 46px;
     padding-top: 15px;
     color: white;
 }
 
-nav {
+header nav {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
     font-size: 18px;
     margin-right: 3%;
 }
@@ -66,12 +68,14 @@ nav a {
     max-height: 175px;
     border-radius: 100px;
     border: 3px solid black;
+    position: relative;
 }
 
   /* Subtitle class */
 .sub_title {
     display: flex;
     justify-content: space-evenly;
+    position: relative;
     margin-right: 9%;
 }
 
@@ -217,15 +221,11 @@ footer h2 {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    header {
+@media only screen and (max-width: 575px) {
+     header {
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    header h1 {
-        margin-left: 0%;
-    }
+    } 
 
     .hero img {
         max-height: 120px;
