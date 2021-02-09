@@ -139,15 +139,15 @@ nav a {
 .wrapper .image_container {
     width: auto;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     border-left: 4px solid rgb(91, 150, 228);
 }
 
 .wrapper img {
     padding: 5px;
     margin: 10px;
-    max-width: 50%;
+    max-width: 40%;
     height: auto; 
 }
 
@@ -260,5 +260,9 @@ footer h2 {
 
     .wrapper .contact_container {
         border: none;
+    }
+
+    .wrapper img {
+        max-width: 60%;
     }
 }
