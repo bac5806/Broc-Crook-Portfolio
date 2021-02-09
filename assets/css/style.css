@@ -7,15 +7,10 @@
 
 /* Set Background Color of webpage */
 body {
-    /* position: absolute; */
-    width:auto;
     background-color: rgb(214, 230, 238); 
-    overflow: auto;
 }
 
 header {
-    /* width: auto;
-    height: auto; */
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -24,6 +19,8 @@ header {
 }
 
 header h1 {
+    display: flex;
+    flex-shrink: 2;
     flex-wrap: wrap;
     margin-left: 3%;
     font-size: 46px;
@@ -33,6 +30,7 @@ header h1 {
 
 header nav {
     display: flex;
+    flex-shrink: 1;
     align-items: flex-end;
     flex-wrap: wrap;
     font-size: 18px;
@@ -53,7 +51,7 @@ nav a {
    bottom right corner.*/
 .hero {
     height: auto;
-    width: auto;
+    width: auto;    
     margin-bottom: 25px;
     padding: 15px 35px;  
     background-image: url("../images/grafiti.jpg");
@@ -66,6 +64,8 @@ nav a {
   }
 
   .hero img {
+    display: flex;
+    flex-shrink: 2;  
     max-height: 175px;
     border-radius: 100px;
     border: 3px solid black;
@@ -75,6 +75,7 @@ nav a {
   /* Subtitle class */
 .sub_title {
     display: flex;
+    flex-shrink: 2; 
     justify-content: space-evenly;
     position: relative;
     margin-right: 9%;
@@ -132,7 +133,6 @@ nav a {
 
 /* Styling for wrapper class p tag */
 .wrapper p {
-    /* max-width: 65%; */
     padding: 20px;
     font-size: 24px; 
     line-height: 24px;
@@ -158,16 +158,13 @@ nav a {
 
 .wrapper .contact_container {
     display: flex;
-    justify-content: center;
-    width: 100%;
     border-left: 4px solid rgb(91, 150, 228);
 }
 
 /* styling for wrapper class unordered list */
 .wrapper .contact_container ul {
-    display: inline-flex;
+    display: flex;
     list-style-type: none;
-    justify-content: center;  
     font-size: 24px;
 }
 
@@ -260,6 +257,7 @@ footer h2 {
     }
 
     .wrapper .contact_container {
+        width: auto;
         border: none;
     }
 
