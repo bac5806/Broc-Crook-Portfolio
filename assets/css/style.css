@@ -29,7 +29,6 @@ header h1 {
     font-size: 46px;
     padding-top: 15px;
     color: white;
-    /* background-color: rgb(131, 223, 240); */
 }
 
 nav {
@@ -115,6 +114,10 @@ nav a {
     min-width: 26%;
     line-height: 40px;
     color: rgb(160, 29, 29);
+}
+
+.wrapper h2 .contact_header {
+    border: none;
 }
 
 .wrapper h2 .me {
@@ -215,12 +218,47 @@ footer h2 {
 }
 
 @media only screen and (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header h1 {
+        margin-left: 0%;
+    }
+
+    .hero img {
+        max-height: 120px;
+    }
+
+    .wrapper #about_me {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .wrapper #work {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
     .wrapper #contact {
         flex-wrap: wrap;
         justify-content: center;
-        background-color: darkcyan;
     }
+
+    .wrapper p {
+        border: none;
+    }
+
     .wrapper h2 .me {
         justify-content: center;
+    }
+
+    .wrapper .image_container {
+        border: none;
+    }
+
+    .wrapper .contact_container {
+        border: none;
     }
 }
