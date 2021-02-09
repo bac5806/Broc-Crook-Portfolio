@@ -214,3 +214,13 @@ footer h2 {
     color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    .wrapper #contact {
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: darkcyan;
+    }
+    .wrapper h2 .me {
+        justify-content: center;
+    }
+}
