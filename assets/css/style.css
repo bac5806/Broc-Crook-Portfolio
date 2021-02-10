@@ -130,7 +130,7 @@ nav a {
 
 }
 
-.wrapper .image_container {
+#work .image_container {
     width: auto;
     display: flex;
     justify-content: center;
@@ -138,34 +138,37 @@ nav a {
     border-left: 4px solid rgb(91, 150, 228);
 }
 
-.wrapper img {
+#work img {
     padding: 5px;
     margin: 10px;
     max-width: 40%;
     height: auto; 
 }
 
-.wrapper .contact_container {
-    width:auto;
+#contact .contact_container {
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-left: 4px solid rgb(91, 150, 228);  
+    background-color: rgb(72, 221, 196);
 }
 
 /* styling for wrapper class unordered list */
-.wrapper .contact_container ul {    
-    display: flex;
+.contact_container ul {  
+    display: flex;  
     list-style-type: none;
     font-size: 24px;
 }
 
 /* give wrapper class unordered list items some padding */
-.wrapper ul li {
+.contact_container ul li {
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
-.wrapper a {
+.contact ul a {
     color: black;
     text-decoration: underline;
     /* border-bottom: 4px solid rgb(91, 150, 228); */
@@ -209,7 +212,7 @@ footer h2 {
     color: white;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 600px) {
      header {
         flex-wrap: wrap;
         justify-content: center;
@@ -255,24 +258,25 @@ footer h2 {
         justify-content: center;
     }
 
-    .wrapper .image_container {
+    #work .image_container {
         border: none;
     }
 
-    .wrapper .contact_container {
+    #contact .contact_container {
+        width: auto;
         flex-wrap: wrap;
         border: none;
     }
 
-    .wrapper img {
+    #work img {
         max-width: 60%;
     }
 
-    .wrapper .contact_container ul {
+    .contact_container ul {
         font-size: 24px;
     }
 
-    .wrapper ul li {
+    .contact_container ul li {
         padding: 10px;
     }
 }
