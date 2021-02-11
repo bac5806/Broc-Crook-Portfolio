@@ -144,9 +144,10 @@ nav a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border-bottom: 2px solid rgb(17, 35, 196);
+    border-bottom: 1px solid rgb(17, 35, 196);
     margin-bottom: -10px; 
     padding-bottom: 20px;
+    text-decoration: none;
 }
 
 .first_work img {
@@ -174,9 +175,10 @@ nav a {
     display: flex; 
     justify-content: center;
     flex-wrap: wrap; 
-    border-bottom: 2px solid rgb(17, 35, 196);
+    border-bottom: 1px solid rgb(17, 35, 196);
     margin-bottom: 10px; 
     padding-bottom: 20px;
+    text-decoration: none;
 }
 
 .secondary_work img {
