@@ -131,18 +131,68 @@ nav a {
 }
 
 #work .image_container {
-    width: auto;
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     border-left: 4px solid rgb(91, 150, 228);
 }
 
-#work img {
+.image_container .first_work {
     padding: 5px;
     margin: 10px;
-    max-width: 40%;
+} 
+
+.first_work a {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(17, 35, 196);
+    margin-bottom: -10px; 
+    padding-bottom: 20px;
+}
+
+.first_work img {
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+    max-width: 100%; 
+}
+
+.first_work h4 {
+    padding: 10px;
+    background-color:black;
+    color: white;
+    width: max-content;
+    font-size: 18px;
+    text-align: center;
+}
+
+.image_container .secondary_work {
+    padding: 5px;
+    margin: 10px;
+}
+
+.secondary_work a {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    border-bottom: 2px solid rgb(17, 35, 196);
+    margin-bottom: 10px; 
+    padding-bottom: 20px;
+}
+
+.secondary_work img {
+    padding: 5px;
+    margin: 5px;
+    max-width:85%;
     height: auto; 
+}
+
+.secondary_work h4 {
+    padding: 10px;
+    background-color:black;
+    color: white;
+    min-width: 35px;
+    font-size: 18px;
+    text-align: center;
 }
 
 #contact .contact_container {
@@ -151,7 +201,6 @@ nav a {
     justify-content: center;
     align-items: center;
     border-left: 4px solid rgb(91, 150, 228);  
-    background-color: rgb(72, 221, 196);
 }
 
 /* styling for wrapper class unordered list */
@@ -171,8 +220,6 @@ nav a {
 .contact ul a {
     color: black;
     text-decoration: underline;
-    /* border-bottom: 4px solid rgb(91, 150, 228); */
-    
 }
 
 span[data-descr] {
@@ -250,7 +297,7 @@ footer h2 {
         justify-content: center;
     }
 
-    .wrapper p {
+    #about_me p {
         border: none;
     }
 
@@ -268,8 +315,8 @@ footer h2 {
         border: none;
     }
 
-    #work img {
-        max-width: 60%;
+    .secondary_work img {
+        max-width: 70%;
     }
 
     .contact_container ul {
