@@ -1,6 +1,7 @@
 # Broc_Crook-Portfolio
 
-*Site still in progress. 
+
+![alt text](assets/images/portfolio.png)
 
 This project is a profesional portolio designed to display html and css knowledge, 
 as well as showcase completed projects, resume, and realted links. 
