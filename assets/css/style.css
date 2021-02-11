@@ -79,6 +79,7 @@ nav a {
   
 /* Create a wrapper for main content  */
 .wrapper {
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -123,8 +124,8 @@ nav a {
 /* Styling for wrapper class p tag */
 #about_me p {
     padding: 20px;
-    font-size: 26px; 
-    line-height: 24px;
+    font-size: 28px; 
+    line-height: 36px;
     font-family: 'Times New Roman', Times, serif;
     border-left: 4px solid rgb(91, 150, 228);
 
