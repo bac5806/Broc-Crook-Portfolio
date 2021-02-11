@@ -1,4 +1,5 @@
 
+/* set to border-box */
 * {
     box-sizing: border-box;
     padding: 0; 
@@ -10,6 +11,7 @@ body {
     background-color: rgb(214, 230, 238); 
 }
 
+/* header styling, set as flex */
 header {
     display: flex;
     justify-content: space-between;
@@ -18,6 +20,7 @@ header {
     color: #ffffff;
 }
 
+/* h1 styling for header */
 header h1 {
     display: flex;
     flex-shrink: 2;
@@ -28,6 +31,7 @@ header h1 {
     color: white;
 }
 
+/* nav styling for header */
 header nav {
     display: flex;
     flex-shrink: 1;
@@ -112,10 +116,12 @@ nav a {
     color: rgb(160, 29, 29);
 }
 
+/* set h2 tag for contact_header to no border */
 .wrapper h2 .contact_header {
     border: none;
 }
 
+/* style individual text in h2 heading *
 .wrapper h2 .me {
     display: flex;
     justify-content: flex-end;
@@ -131,16 +137,19 @@ nav a {
 
 }
 
+/* vreate image container for work show images */
 #work .image_container {
     flex-wrap: wrap;
     border-left: 4px solid rgb(91, 150, 228);
 }
 
+/* split image conainter into 2 sections, fist work and secondary work below */
 .image_container .first_work {
     padding: 5px;
     margin: 10px;
 } 
 
+/* styling for anchor tags in first_work */
 .first_work a {
     display: flex;
     justify-content: center;
@@ -151,6 +160,7 @@ nav a {
     text-decoration: none;
 }
 
+/* styling for images in first_work */
 .first_work img {
     padding: 5px;
     margin: 5px;
@@ -158,6 +168,7 @@ nav a {
     max-width: 100%; 
 }
 
+/* styling for h4 tags in first_work */
 .first_work h4 {
     padding: 10px;
     background-color:black;
@@ -167,11 +178,14 @@ nav a {
     text-align: center;
 }
 
+
+/* secondary work image conatiner */
 .image_container .secondary_work {
     padding: 5px;
     margin: 10px;
 }
 
+/* styling for anchor tags in secondary_work */
 .secondary_work a {
     display: flex; 
     justify-content: center;
@@ -182,6 +196,7 @@ nav a {
     text-decoration: none;
 }
 
+/* styling for image tags in secondary_work */
 .secondary_work img {
     padding: 5px;
     margin: 5px;
@@ -189,6 +204,7 @@ nav a {
     height: auto; 
 }
 
+/* styling for h4 tags in secondary_work */
 .secondary_work h4 {
     padding: 10px;
     background-color:black;
@@ -198,6 +214,7 @@ nav a {
     text-align: center;
 }
 
+/* create container for contact info */
 #contact .contact_container {
     width: 100%;
     display: flex;
@@ -220,16 +237,19 @@ nav a {
     padding: 20px;
 }
 
+/* styling for unordered list anchor tags */
 .contact ul a {
     color: black;
     text-decoration: underline;
 }
 
+/* date-descr for phone and email */
 span[data-descr] {
     position: relative;
     cursor: grab;
   }
-  
+
+/* styling for phone and email bubble pop up */  
 span[data-descr]:hover::after,
 span[data-descr]:hover::after {
     content: attr(data-descr);
@@ -245,6 +265,7 @@ span[data-descr]:hover::after {
     z-index: 1;
 }
 
+/* styling for footer */
   footer {
     width: auto;
     min-height: 100px;
@@ -256,76 +277,93 @@ span[data-descr]:hover::after {
     align-items: center;
 }
 
+/* footer h2 tag styling  */
 footer h2 {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
+/* media queries and mobile break points */
 @media only screen and (max-width: 600px) {
+    /* set header to clex-wrap and center content */
      header {
         flex-wrap: wrap;
         justify-content: center;
     } 
 
+    /* move nav items to the right with neg margin */
     header nav {
         margin-right: -5%;
     }
 
+    /* set hero image to 100 pixels */
     .hero img {
         max-height: 100px;
     }
 
+    /* set sub_title to space-between */
     .sub_title {
         justify-content: space-between;
     }
 
+    /* set h2 margin-right and change font-size */
     .sub_title h2 {
         margin-right: -20px;
         font-size: 20px;
     }
 
+    /* set about me conatiner to flex-wrap and center content */
     .wrapper #about_me {
         flex-wrap: wrap;
         justify-content: center;
     }
     
+    /* set about me conatiner to flex-wrap and center content */
     .wrapper #work {
         flex-wrap: wrap;
         justify-content: center;
     }
    
+    /* set about me conatiner to flex-wrap and center content */
     .wrapper #contact {
         flex-wrap: wrap;
         justify-content: center;
     }
 
+    /* remove border on about p tag */
     #about_me p {
         border: none;
     }
 
+    /* center content */
     .wrapper h2 .me {
         justify-content: center;
     }
 
+    /* remove border on image container */
     #work .image_container {
         border: none;
     }
 
+    /* remove border and set to flex-wrap */
     #contact .contact_container {
         width: auto;
         flex-wrap: wrap;
         border: none;
     }
 
+    /* change max-width to 70 percent */
     .secondary_work img {
         max-width: 70%;
     }
 
+    /* set font size to 24 pixels */
     .contact_container ul {
         font-size: 24px;
     }
 
+    /* set padding to 10 pixels */
     .contact_container ul li {
         padding: 10px;
     }
