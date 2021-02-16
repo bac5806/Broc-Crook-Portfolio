@@ -272,15 +272,20 @@ span[data-descr]:hover::after {
     margin-top: 25px;
     padding: 5px;
     background-color: rgb(16, 9, 46);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* footer h2 tag styling  */
 footer h2 {
+    height: fit-content;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
