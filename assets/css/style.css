@@ -274,13 +274,26 @@ span[data-descr]:hover::after {
     background-color: rgb(16, 9, 46);
 }
 
+footer .container1 {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
 /* footer h2 tag styling  */
-footer h2 {
+footer .container1 h2 {
     height: fit-content;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+}
+
+footer .container2 {
+    display: flex;
+    align-items: flex-end;
+    background-color: blueviolet;
+    height: 60px;
 }
 
 footer a {
@@ -376,6 +389,6 @@ footer a {
     }
 
     footer a {
-        font-size: 14px;   
+        font-size: 12px;   
     }
 }
