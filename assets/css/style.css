@@ -277,7 +277,6 @@ span[data-descr]:hover::after {
 footer .container1 {
     display: flex;
     justify-content: center;
-    background-color: chartreuse;
 }
 
 /* footer h2 tag styling  */
@@ -292,7 +291,6 @@ footer .container1 h2 {
 footer .container2 {
     display: flex;
     align-items: flex-end;
-    background-color: blueviolet;
     height: 60px;
 }
 
