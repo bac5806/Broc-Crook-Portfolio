@@ -374,4 +374,8 @@ footer a {
     .contact_container ul li {
         padding: 10px;
     }
+
+    footer a {
+        font-size: 14px;   
+    }
 }
