@@ -130,7 +130,7 @@ nav a {
 /* Styling for wrapper class p tag */
 #about_me p {
     padding: 20px;
-    font-size: 28px; 
+    font-size: 26px; 
     line-height: 36px;
     font-family: 'Times New Roman', Times, serif;
     border-left: 4px solid rgb(91, 150, 228);
@@ -333,7 +333,9 @@ footer h2 {
 
     /* remove border on about p tag */
     #about_me p {
+        font-size: 18px;
         border: none;
+        text-align: center;
     }
 
     /* center content */
